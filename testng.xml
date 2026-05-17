@@ -1,0 +1,33 @@
+<suite name = "crossbrowser testing">
+<test name = "Chrome test">
+<parameter name = "Browser" value = "chrome">
+</parameter>
+<classes>
+<class name = "Mar12.Using_DataProvider">
+</class>
+</classes>
+</test>
+<!--<test name = "Firefox test">
+<parameter name = "Browser" value = "firefox">
+</parameter>
+<classes>
+<class name = "Mar12.Using_DataProvider">
+</class>
+</classes>
+</test>-->
+<test name = "microsoftedge test">
+<parameter name = "Browser" value = "MicrosoftEdge">
+</parameter>
+<classes>
+<class name = "Mar12.Using_DataProvider">
+</class>
+</classes>
+</test>
+</suite>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>qedge</groupId>
+  <artifactId>cucumber_framework</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+</project>

@@ -1,0 +1,13 @@
+
+<suite name="MyProject">
+  <test thread-count="5" name="ProjectReport1">
+    <classes>
+      <class name="Mar10.FirstTestNgclass"/>
+    </classes>
+  </test> <!-- ProjectReport -->
+   <test thread-count="5" name="ProjectReport2">
+    <classes>
+      <class name="Mar10.Second_TestNgclass"/>
+    </classes>
+  </test> <!-- ProjectReport -->
+</suite> <!-- MyProject -->
